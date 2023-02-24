@@ -1,0 +1,55 @@
+.Header {
+    height: 60px;
+    background-color: #121e26;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    font-family: Montserrat, sans-serif;
+}
+
+.Header a {
+    text-decoration: none;
+    color: #94C6F2;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.Header a:hover {
+    text-decoration: #94C6F2;
+}
+
+.Header a[class="active"] {
+    color: #94C6F2;
+}
+
+.button{
+    color: #121e26;
+    background-color: #f2c53d;
+    width: 100px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    height: 30px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.button:hover{
+    background-color: #94C6F2;
+}
+
+.inputString {
+    height: 28px;
+    width: 300px;
+    border-radius: 6px;
+    border: none;
+    background-color: white;
+    color: #f2c53d;
+    margin-right: 20px;
+    padding-left: 10px;
+}

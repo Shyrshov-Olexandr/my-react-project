@@ -1,0 +1,9 @@
+.genreTags {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    color: #121e26;
+    padding-left: 20px;
+    font-family: Montserrat, sans-serif;
+}

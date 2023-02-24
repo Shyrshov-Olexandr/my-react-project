@@ -1,0 +1,110 @@
+.body{
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.listOnPage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.GenresList {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.GenresList p{
+    color: #94C6F2;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    --color: #F2C53D;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 200;
+    font-size: 12px;
+    border: 1px solid;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+    margin: 10px;
+    width: 150px;
+}
+
+.button::before, .button::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 0;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-width: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+}
+
+.button::before {
+    top: -1em;
+    left: -1em;
+}
+
+.button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+
+.button:hover::before, .button:hover::after {
+    height: 400px;
+    width: 400px;
+}
+
+.button:hover {
+    color: #121e26;
+}
+
+.button:active {
+    filter: brightness(.8);
+}
+.button::before {
+    top: -1em;
+    left: -1em;
+}
+
+.button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+
+.button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+}
+
+.button:hover {
+    color: #121e26;
+}
+
+.button:active {
+    filter: brightness(.8);
+}
+
+.buttonPosition{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+}

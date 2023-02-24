@@ -1,0 +1,55 @@
+.Container{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat, sans-serif;
+
+}
+.Poster{
+    margin: 20px 20px 20px 30px;
+}
+
+.Raiting{
+    margin-left: 30px;
+}
+
+.Title{
+    color: #f2c53d;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px;
+}
+.Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    color: #f2c53d;
+    font-size: 20px;
+}
+.FieldBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+}
+.Overview{
+    font-size: 20px;
+    padding: 20px;
+    color: #94C6F2;
+}
+.badgeBlock{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.InfoPoster{
+    display: flex;
+    flex-direction: row;
+}
+.FieldValue{
+    color: #94C6F2;
+    margin-left: 20px;
+}

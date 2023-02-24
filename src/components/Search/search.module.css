@@ -1,0 +1,84 @@
+.body{
+    text-align: center;
+}
+
+.List{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.Form{
+    padding-top: 100px;
+}
+.inputWrapper input {
+    background-color: #94C6F2;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 13em;
+    border-radius: 1rem;
+    color: #f2c53d;
+
+    cursor: pointer;
+}
+
+.inputWrapper input:focus {
+    outline-color: #f2c53d;
+}
+.button {
+    --color: #94c6f2;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+    margin: 20px;
+
+}
+
+.button::before, .button::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 40px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+}
+
+.button::before {
+    top: -1em;
+    left: -1em;
+}
+
+.button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+
+.button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+}
+
+.button:hover {
+    color: rgb(10, 25, 30);
+}
+
+.button:active {
+    filter: brightness(.8);
+}

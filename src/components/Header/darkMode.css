@@ -1,0 +1,8 @@
+.dark {
+    background-color: rgba(18, 30, 38, 0.9);
+    color: #94C6F2;
+}
+.light {
+    background-color: white;
+    color: #121e26;
+}
