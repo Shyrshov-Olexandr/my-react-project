@@ -51,7 +51,7 @@
     height: 0;
     transform: translate(-50%, -50%);
     position: absolute;
-    border-width: 50%;
+    border-width: 50px;
     z-index: -1;
     background-color: var(--color);
     transition: 1s ease;
